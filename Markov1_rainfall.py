@@ -1,6 +1,6 @@
 from random import random
 
-# Rainfall data from 1941 to 2021 for Slemani-Kurdistan
+# Rainfall data from 1941 to 2025 for Slemani-Kurdistan
 rain = [
     780, 470, 690, 640, 790, 835, 530, 360, 185, 40, 
     430, 620, 790, 880, 560, 455, 1240, 410, 580, 490, 
@@ -9,7 +9,8 @@ rain = [
     780, 970, 485, 705, 715, 725, 750, 902, 498, 945, 
     935, 1002, 880, 960, 665, 780, 850, 620, 330, 270, 
     510, 930, 875, 840, 630, 875, 874, 307, 415, 844, 
-    661, 547, 826, 581, 691, 947, 561, 850, 1618, 931, 401
+    661, 547, 826, 581, 691, 947, 561, 850, 1618, 931, 
+    401, 420, 781, 724, 350
 ]
 
 year = range(1941,1941+len(rain)+1)
@@ -94,9 +95,6 @@ def next_data(data):
         choice = random.choice(unique)
     return b2r(choice)
 
-d=next_data(401) #2022
-d=next_data(d) #2023
-d=next_data(d) #2024
-d=next_data(d) #2025
-print("prediction for 2025",d)
-print("real data was 350mm which is in the bin range 100mm")
+d=next_data(350) #2025
+print("prediction for 2026",d)
+# it says 400mm, i hope it's wrong because it would be two droughts in series
