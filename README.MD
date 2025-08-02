@@ -2,5 +2,5 @@
 1. Markov Chain
 2. FFT, written by ChatGPT (prompted by me)
 results of FFT
-<img width="1200" height="500" alt="Image" src="https://github.com/user-attachments/assets/31aec0bb-7912-4e05-a663-b3faa8ff4a88" />
-<img width="1200" height="500" alt="Image" src="https://github.com/user-attachments/assets/f65a254b-bd07-4ae4-bf32-c36fac67caa7" />
+<img width="1200" height="500" alt="Image" src="https://github.com/user-attachments/assets/97d538f0-bd14-446a-ad6c-68ca6f478c54" />
+<img width="1200" height="500" alt="Image" src="https://github.com/user-attachments/assets/4ca616b7-b3aa-4ce6-89aa-c870a5b87fe0" />
